@@ -1,0 +1,59 @@
+/* Base styles for larger screens */
+body {
+    width: 400px;
+    height: 500px;
+}
+
+/* Styles for screens smaller than 600px */
+@media (max-width: 600px) {
+    body {
+        width: 300px;
+        height: auto;
+        padding: 15px;
+    }
+
+    h1 {
+        font-size: 22px;
+    }
+
+    #userInput {
+        font-size: 14px;
+        padding: 10px;
+    }
+
+    #getProblems {
+        font-size: 16px;
+        padding: 10px;
+    }
+
+    #results p {
+        font-size: 14px;
+    }
+}
+
+/* Styles for screens smaller than 400px */
+@media (max-width: 400px) {
+    body {
+        width: 250px;
+        height: auto;
+        padding: 10px;
+    }
+
+    h1 {
+        font-size: 20px;
+    }
+
+    #userInput {
+        font-size: 12px;
+        padding: 8px;
+    }
+
+    #getProblems {
+        font-size: 14px;
+        padding: 8px;
+    }
+
+    #results p {
+        font-size: 12px;
+    }
+}
